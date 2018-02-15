@@ -13,9 +13,6 @@ library(arulesViz)
 
 #Load data---------------------------------------
 
-electronidex <- read.transactions("x",
-  format = "basket", sep = ",", cols = NULL, rm.duplicates = TRUE, encoding = "unknown")
-
 Electrodinex_itemList
 
 #What's here------------------------------------
