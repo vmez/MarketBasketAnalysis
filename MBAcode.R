@@ -13,7 +13,7 @@ library(arulesViz)
 
 #Load data---------------------------------------
 
-Electrodinex_itemList
+Electrodinex_itemList 
 
 #What's here------------------------------------
 inspect(electronidex[1:10])
