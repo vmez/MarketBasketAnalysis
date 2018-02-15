@@ -13,8 +13,7 @@ library(arulesViz)
 
 #Load data---------------------------------------
 
-electronidex <- read.transactions(
-  "Ubiqum/PredictingCustomerPreference/Electronidex/ElectronidexTransactions2017.csv",
+electronidex <- read.transactions("x",
   format = "basket", sep = ",", cols = NULL, rm.duplicates = TRUE, encoding = "unknown")
 
 Electrodinex_itemList
@@ -103,7 +102,7 @@ inspect(rules[1:10])
 
 
 #List of product upload---------------------------------------------------------------------------
-Electronidex_itemsList <- read_csv("Ubiqum/PredictingCustomerPreference/Electronidex/Electronidex_itemsList.csv")
+Electronidex_itemsList <- read_csv("X")
 str(Electronidex_itemsList)
 Electronidex_itemsList <- as.data.frame(Electronidex_itemsList)
 head(Electronidex_itemsList)
@@ -130,7 +129,7 @@ summary(agsuM)
 
 
 #Viz Products top3---------------------------------------------------
-top3Cat <- read_csv("Ubiqum/PredictingCustomerPreference/Electronidex/top3Cat.csv")
+top3Cat <- read_csv("X")
 
 
 #when three categories combined in one plot (desktop, laptop, monitor)-----------------------
