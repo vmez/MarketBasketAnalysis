@@ -1,2 +1,2 @@
 # MarketBasketAnalysis
-Ubiqum assignment predicting Customer Preference
+Assignment predicting Customer Preference
