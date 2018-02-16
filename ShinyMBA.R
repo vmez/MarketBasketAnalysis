@@ -16,9 +16,6 @@ conf=0.5
 vars=50
 
 #Load files---------------------------------------------------------------------------
-import = read.transactions(
-  "Ubiqum/PredictingCustomerPreference/Electronidex/ElectronidexTransactions2017.csv", 
-  format = "basket", cols = NULL, sep = ",")
 
 
 # Part 2 Shiny App ---------------------------------------------------->> the server 
