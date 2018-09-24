@@ -6,3 +6,5 @@ These associations can be used to drive sales-oriented initiatives such as recom
 
 The dataset is made in-house, and contains 9833 transactions made in one month.
 Packages used: Arules, ArulesViz, ggplot2, and dplyr.
+
+Deepend knowledge about the association rules from: http://michael.hahsler.net/research/arules_RUG_2015/talk/arules_RUG2015.pdf 
